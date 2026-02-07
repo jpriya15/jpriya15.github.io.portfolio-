@@ -4,12 +4,38 @@
   <meta charset="UTF-8" />
   <title>Josyula Sai Krishna Priya | Data Analyst</title>
 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f6f8;
       margin: 0;
       padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: white;
+      border-bottom: 1px solid #eee;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #1f6feb;
     }
 
     .container {
@@ -19,8 +45,34 @@
       padding: 30px;
     }
 
-    h1 {
+    .hero {
+      margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
       color: #2c3e50;
+    }
+
+    .hero span {
+      color: #1f6feb;
+    }
+
+    .hero-buttons a {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      background: #1f6feb;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .hero-buttons a.secondary {
+      background: #e7f1ff;
+      color: #1f6feb;
     }
 
     h2 {
@@ -31,15 +83,10 @@
 
     .section {
       margin-bottom: 30px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    a {
-      color: #1f6feb;
-      text-decoration: none;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
     .badge {
@@ -51,91 +98,151 @@
       border-radius: 5px;
       font-size: 14px;
     }
+
+    .badge i {
+      margin-right: 6px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    pre {
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1f6feb;
+      text-decoration: none;
+    }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>Josyula Sai Krishna Priya</h1>
-    <p><b>Data Analyst</b></p>
+
+<nav>
+  <b>Josyula Priya</b>
+  <div>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Hi, I’m <span>Josyula Sai Krishna Priya</span></h1>
+    <h3>Data Analyst</h3>
 
     <p>
-      Results-driven Data Analyst with hands-on experience in Power BI, SQL, DAX, and data modeling, delivering high-quality dashboards and reports. Proven ability to analyze complex datasets, ensure data accuracy, and translate business requirements into meaningful analytics solutions.
+      Results-driven Data Analyst with 3+ years of experience in Power BI, SQL,
+      and data modeling. I design dashboards and analytics solutions that support
+      data-driven business decisions.
     </p>
 
-    <p>
-      📧 <a href="mailto:jskp2001@gmail.com">jskp2001@gmail.com</a> |
-      🔗 <a href="https://www.linkedin.com/in/sai-krishna-priya-josyula-b54180221" target="_blank">LinkedIn</a> |
-      💻 <a href="https://github.com/jpriya15" target="_blank">GitHub</a>
-    </p>
-
-    <div class="section">
-     <h2>Data Analytics Tools</h2>
-     <span class="badge">Power BI</span>
-     <span class="badge">Tableau</span>
-    </div>
-
-    <div class="section">
-     <h2>Programming & Databases</h2>
-     <span class="badge">Python - Numpy, Pandas</span>
-     <span class="badge">SQL</span>
-    </div>
-
-    <div class="section">
-     <h2>Data Quality & Visualization</h2>
-     <span class="badge">Data Transformation</span>
-     <span class="badge">Power Query</span>
-     <span class="badge">Data Modeling</span>
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <b>HR Analytics Dashboard</b><br />
-          Built Power BI dashboards to analyze employee attrition trends and
-          identify key turnover drivers.
-        </li>
-        <br />
-        <li>
-          <b>Workplace Productivity Tracker</b><br />
-          Designed a productivity analytics dashboard using SQL and Power BI,
-          modeled after enterprise tracking tools.
-        </li>
-      </ul>
-    </div>
-
-    <div class="section">
-    <h2>Work Experience</h2>
-
-  <h3>Senior Analyst – Data Analytics</h3>
-  <p><b>Capgemini</b> | Sep 2022 – Present | Gurugram</p>
-  <ul>
-    <li>Built interactive Power BI dashboards to track key business KPIs, reducing manual reporting effort by 30%.</li>
-    <li>Automated reporting workflows and data pipelines using Power BI, SQL, and Excel.</li>
-    <li>Managed the end-to-end data lifecycle including data cleaning, validation, and visualization.</li>
-    <li>Collaborated with stakeholders to translate complex data into actionable business insights.</li>
-    <li>Aligned analytical solutions with business goals to enable data-driven decision-making.</li>
-  </ul>
-
-  <br />
-
-  <h3>Backend Data & Application Analyst</h3>
-  <p><b>Viavi Solutions – TMA Application</b></p>
-  <ul>
-    <li>Performed backend data validation and functional testing for 5G data modules.</li>
-    <li>Verified data accuracy across systems by analyzing backend workflows and reports.</li>
-    <li>Collaborated with developers to identify and resolve backend data issues.</li>
-    <li>Conducted end-to-end testing to ensure reliability of data-intensive application features.</li>
-  </ul>
-</div>
-
-    <div class="section">
-      <h2>Education</h2>
-      <p>B.Tech – Electronics & Communication Engineering (2018–2022)</p>
+    <div class="hero-buttons">
+      <a href="#projects">View My Work</a>
+      <a href="Josyula_Sai_Krishna_Priya.pdf" class="secondary" download>
+        Download Resume
+      </a>
     </div>
   </div>
+
+  <!-- CONTACT -->
+  <div class="section" id="contact">
+    <p>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:jskp2001@gmail.com">jskp2001@gmail.com</a> |
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/sai-krishna-priya-josyula-b54180221" target="_blank">LinkedIn</a> |
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/jpriya15" target="_blank">GitHub</a>
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section" id="skills">
+    <h2>Data Analytics Tools</h2>
+    <span class="badge"><i class="fa-solid fa-chart-line"></i> Power BI</span>
+    <span class="badge"><i class="fa-solid fa-chart-pie"></i> Tableau</span>
+
+    <h2>Programming & Databases</h2>
+    <span class="badge"><i class="fa-brands fa-python"></i> Python (Pandas, NumPy)</span>
+    <span class="badge"><i class="fa-solid fa-database"></i> SQL</span>
+
+    <h2>Data Quality & Visualization</h2>
+    <span class="badge"><i class="fa-solid fa-filter"></i> Data Transformation</span>
+    <span class="badge"><i class="fa-solid fa-gears"></i> Power Query</span>
+    <span class="badge"><i class="fa-solid fa-diagram-project"></i> Data Modeling</span>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+
+    <h3>HR Analytics Dashboard (Power BI)</h3>
+    <p>Analyzed employee attrition trends and identified key turnover drivers.</p>
+    <img src="hr_dashboard.png" alt="HR Dashboard">
+
+    <br><br>
+
+    <h3>Workplace Productivity Tracker (Power BI)</h3>
+    <p>Designed productivity analytics dashboards using SQL and Power BI.</p>
+    <img src="productivity_dashboard.png" alt="Productivity Dashboard">
+  </div>
+
+  <!-- SQL -->
+  <div class="section">
+    <h2>SQL Code Samples</h2>
+
+    <pre><code>
+SELECT department,
+       COUNT(employee_id) AS total_employees,
+       SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS attrition_count
+FROM hr_data
+GROUP BY department
+ORDER BY attrition_count DESC;
+    </code></pre>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section" id="experience">
+    <h2>Work Experience</h2>
+
+    <h3>Senior Analyst – Data Analytics</h3>
+    <p><b>Capgemini</b> | Sep 2022 – Present | Gurugram</p>
+    <ul>
+      <li>Built Power BI dashboards to track KPIs, reducing manual reporting by 30%.</li>
+      <li>Automated reporting workflows using Power BI, SQL, and Excel.</li>
+      <li>Managed end-to-end data lifecycle including validation and visualization.</li>
+      <li>Translated complex data into actionable business insights.</li>
+    </ul>
+
+    <h3>Backend Data & Application Analyst</h3>
+    <p><b>Viavi Solutions – TMA Application</b></p>
+    <ul>
+      <li>Performed backend data validation for 5G data modules.</li>
+      <li>Verified data accuracy across systems.</li>
+      <li>Collaborated with developers to resolve backend issues.</li>
+    </ul>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <h2>Education</h2>
+    <p>B.Tech – Electronics & Communication Engineering (2018–2022)</p>
+  </div>
+
+</div>
 </body>
 </html>
-
-
